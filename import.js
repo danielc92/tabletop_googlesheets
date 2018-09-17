@@ -19,6 +19,8 @@
       tr.append("<td>" + data[i].name_ + "</td>");
       tr.append("<td>" + data[i].age_ + "</td>");
       tr.append("<td>" + data[i].score_ + "</td>");
+      tr.append("<td>" + data[i].fav_colour_ + "</td>");
+      tr.append("<td><img style = 'width:30px; height:30px;'src='" + data[i].link_ + "'></img></td>");
       $('#table1').append(tr);
     }
     console.log(data);
